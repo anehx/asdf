@@ -410,3 +410,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+.cocoen:not(.show-images) > img:last-child {
+  display: none;
+}

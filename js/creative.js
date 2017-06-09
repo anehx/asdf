@@ -32,6 +32,7 @@
         var target = $(this).find('.cocoen')
 
         if (!target.find('.cocoen-drag').length) {
+            target.addClass('show-images')
             target.cocoen();
         }
     })
